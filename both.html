@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Both</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1. text align center and padding -->
+    <section>
+      <div class="desc">Using "text align center and padding"</div>
+      <div
+        class="border-new"
+        style="text-align: center; padding-top: 32px; padding-bottom: 32px"
+      >
+        Hello World!
+      </div>
+    </section>
+
+    <!-- 2. margin auto and padding-->
+    <section>
+      <div class="desc">Using "margin auto and padding"</div>
+      <div class="border-new" style="padding-top: 32px; padding-bottom: 32px">
+        <div class="element" style="margin: auto"></div>
+      </div>
+    </section>
+
+    <!-- 3. display flex -->
+    <section>
+      <div class="desc">Using "display flex"</div>
+      <div
+        class="border-new"
+        style="
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div class="element"></div>
+      </div>
+    </section>
+
+    <!-- 4. position absolute -->
+    <section>
+      <div class="desc">Using "position absolute"</div>
+      <div class="border-new" style="height: 200px; position: relative">
+        <div
+          class="element"
+          style="
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          "
+        ></div>
+      </div>
+    </section>
+  </body>
+</html>
